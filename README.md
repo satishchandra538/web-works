@@ -1,2 +1,2 @@
 # web-works
-Add works and learnings related to web development.
+Add works and learnings related to web development

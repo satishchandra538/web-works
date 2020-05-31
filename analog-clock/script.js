@@ -3,8 +3,6 @@ const hr = document.querySelector("#hr");
 const min = document.querySelector("#min");
 const sec = document.querySelector("#sec");
 
-
-
 setInterval(() => {
     var today = new Date();
     var hour = today.getHours() * 30;
@@ -14,4 +12,4 @@ setInterval(() => {
     hr.style.transform = `rotateZ(${h}deg)`;
     min.style.transform = `rotateZ(${minutes}deg)`;
     sec.style.transform = `rotateZ(${seconds}deg)`;
-},1000);
+}, 1000);
